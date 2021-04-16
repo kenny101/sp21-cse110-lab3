@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+.links {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+ol {
+    display: table; 
+    margin: 0 auto;
+    text-align: center;
+    list-style:none;
+}
+
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: center;
+    list-style:none;
+}
+
+/* li {
+    margin-bottom: 5vh;
+} */
+
+video {
+    margin-left: 28%;
+}
+
+details {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
