@@ -2,6 +2,11 @@
 <html lang="en">
 
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="CSE110 Lab02">
@@ -11,26 +16,29 @@
     <title>
         Kenny's Webpage
     </title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 
 <body>
     <main>
 
-        <nav>
+        <nav class="nav">
             <b>Section Links:</b>
             <a href="#day-1">Day 1</a> |
             <a href="#day-2">Day 2</a> |
             <a href="#day-3">Day 3</a> |
         </nav>
-        <hr>
 
-        <h1>Welcome to <span style="color:orangered">Kenny's Journal</span></h1>
-        <p>Haven't really done anything interesting lately... but enjoy! ¯\_(ツ)_/¯</p>
-        <audio controls>
-            <source src="media/rickroll.mp4" type="audio/mpeg">
-        </audio>
-        <hr>
+        <div class="cover">
+            <hr>
+            <h1>Welcome to <span style="color:rgb(36, 16, 9)">Kenny's Journal</span></h1>
+            <p>Haven't really done anything interesting lately... but enjoy! ¯\_(ツ)_/¯</p>
+            <audio controls>
+                <source src="media/rickroll.mp4" type="audio/mpeg">
+            </audio>
+            <hr>
+        </div>
 
 
         <div class="my-journal">
@@ -104,10 +112,12 @@
 
         <hr>
 
-        <h2><b>FIN</b></h2>
-        <video controls>
-            <source src="media/rickroll.mp4" type="video/mp4">
-        </video>
+        <div class="video">
+            <h2><b>FIN</b></h2>
+            <video controls>
+                <source src="media/rickroll.mp4" type="video/mp4">
+            </video>
+        </div>
 
         <hr>
         <details>
@@ -124,11 +134,19 @@
                 <button type="button">Submit Data</button>
             </div>
         </details>
-            <hr>
-            <footer>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Author: Kenny Chan</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Location: John Doe Street</a>
-            </footer>
+        <hr>
+
+
+        <div class="pictures">
+            <img src="https://img.pokemondb.net/artwork/large/charizard.jpg">
+            <img src="http://static.pokemonpets.com/images/monsters-images-800-800/3-Venusaur.png">
+            <img src="https://i.pinimg.com/originals/a8/69/91/a869915fdb507d7de8f23739aa989535.jpg">
+        </div>
+
+        <footer>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Author: Kenny Chan</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Location: John Doe Street</a>
+        </footer>
     </main>
 </body>
 
