@@ -1,4 +1,4 @@
-#Stand-up
+# Stand-up
 - What did I work on yesterday?
     - I created some issues to work on such as adding a style sheet and editing the readme file
 - What am I working on today?
