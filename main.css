@@ -1,0 +1,168 @@
+body {
+    background-color: hsl(46, 100%, 50%);
+    font-family: 'Roboto', sans-serif;
+    /* absolute unit #1 */
+    font-size: 30px;
+
+    /* background image of dragonite */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/231/604/31/pokemon-dragonite-wallpaper-preview.jpg");
+}
+
+.nav {
+    text-align: center;
+    position: static;
+}
+
+@media (any-hover: hover) {
+    a:hover {
+        background: rgb(255, 255, 255);
+    }
+}
+
+.my-journal {
+    text-align: center;
+    display: block;
+    position: relative;
+    flex-flow: column wrap;
+    display: flex;
+    order: 5;
+}
+
+div>span {
+    background-color: rgb(255, 139, 30);
+}
+
+ul.lists li {
+    font-weight: 10em;
+}
+
+p~span {
+    color: black;
+}
+
+.pictures {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-gap: 1px;
+    grid-template-areas: "poke1 poke2 poke3";
+}
+
+.pictures+img {
+    display: grid;
+    justify-content: center;
+}
+
+button:hover {
+    color: rgb(255, 81, 0);
+}
+
+a:active {
+    color: red;
+}
+
+.cover {
+    /* borders */
+    border-style: dotted;
+    border-color: red;
+    border-width: 50px;
+    border-radius: 50px;
+
+    /* margin short */
+    margin: 25px 50px 75px 100px;
+    text-align: center;
+
+    /* relative unit #1 */
+    font-size: 3rem;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+ol,
+ul {
+    list-style: none;
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+h2.my-journal {
+    color: black;
+}
+
+
+.fin {
+    text-align: center;
+    display: flex;
+}
+
+
+h2 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+
+    /* absolute unit #2 */
+    text-shadow: 2px 2px red;
+
+    /* relative unit #2 */
+    font-size: 3em;
+}
+
+
+img {
+    width: 80%;
+    height: auto;
+
+    /* Padding long */
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+h2.cover {
+    color: black
+}
+
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 30px;
+}
+
+
+a:active {
+    color: rgb(55, 0, 255);
+}
+
+details {
+    text-align: center;
+
+    /* Margin long */
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    flex-shrink: 5;
+}
+
+footer {
+    text-align: center;
+
+    /* padding short */
+    padding: 20px 20px 20px 20px;
+
+    /* margin long */
+    margin-top: 20px;
+
+    /* absolute unit #3 */
+    text-shadow: 2px 2px #ff0000;
+
+    /* relative unit #3 */
+    font-size: 2vmax;
+
+    background-image: url("https://7551bdfc54adf45425bb-e1819ba959867bdb3382b3652a5f5ff1.ssl.cf5.rackcdn.com/stickers/554/f92/1430321453_Meg_stickers_color042815_014.png");
+}
